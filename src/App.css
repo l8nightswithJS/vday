@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+.App {
+  width: 100%;
+  margin: auto;
+  height: 1000px;
+  text-align: center;
+  }
+.header {
+  font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+  text-align: center;
+  color: pink;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  text-decoration: none;
+  margin: 15% auto;;
+  
+}
+
+
+
+.landing-h2 {
+  font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+  text-align: center;
+  color: pink;
+  margin-top: 145%;
+  margin-bottom: 10%;
+}
+
+a.landing-link {
+  /* background-color: grey; */
+  font: 400 20px/.8 'Great Vibes', Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  border-radius: 30%;
+  padding: 1% 4% 1% 4%;
+  border: white 1px solid;
+
+  
+
+}
+
+.container {
+  display: inline-block;
+  margin-top: .05%;
+  padding: 3px;
+}
+
+
+
+
+  .home {
+    
+    background-image: url('http://static.wixstatic.com/media/4d73f4_98ae495e2190e5e72c54253c5a8dc9e9.jpg/v1/fill/w_740,h_800,al_c,q_90/4d73f4_98ae495e2190e5e72c54253c5a8dc9e9.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .home h1 {
+    color: pink;
+    font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+    margin: 0 auto;
+    padding-top: 10%;
+  }
+
+  .home-img {
+    height: 278px;
+    margin-top: 20%;
+  }
+
+  .img-home {
+    width: 76%;
+    height: 100%;
+    clip-path: circle(50% at 50% 50%);
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+
+  }
+
+.carousel-item {
+  width: 85% !important;
+  height: 200px !important;
+  padding-left: 15% !important;
+}
+
+.carousel {
+  margin-top: 15% !important;
+  opacity: 0.6 !important;
+  margin-bottom: 5%;
+}
+
+a.carousel-control-next, .carousel-control-prev {
+  padding: 1% !important;
+  font: 5px !important;
+  width: 5% !important;
+  border: none !important;
+}
+
+.img-2 {
+  height: 200px !important;
+}
+
+p {
+  font: 400 20px/.8 'Great Vibes', Helvetica, sans-serif;
+  color: pink;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.link {
+  color: pink;
+  border: none;
+}
