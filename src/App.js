@@ -13,10 +13,10 @@ import {
 
 
 function App() {
-  // useEffect(() => {
-  //   var song = new Audio(sunshine);
-  //   song.play();
-  // })
+  useEffect(() => {
+    var song = new Audio(sunshine);
+    song.play();
+  })
 
 
   return (
