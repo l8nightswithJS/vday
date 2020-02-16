@@ -1,5 +1,7 @@
 import React from 'react';
-import ControlledCarousel from './carouselTwo.js'
+import ControlledCarousel from './carouselTwo.js';
+import ControlledCarouselThree from './carousel3.js'
+
 
 import {
     Link
@@ -8,11 +10,13 @@ import {
 const Lily = () => {
     return (
         <>
-        <div >
+        <div className='lily' >
             <h1>Anna Lilia Garcia</h1>
            
             
             <ControlledCarousel className='home-carousel'/>
+            <br/>
+            <ControlledCarouselThree className='home-carousel'/>
             
         </div>
 

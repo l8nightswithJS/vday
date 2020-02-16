@@ -5,6 +5,7 @@
   margin: auto;
   height: 1000px;
   text-align: center;
+  font-weight: bolder;
   }
 .header {
   font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
@@ -12,7 +13,8 @@
   color: pink;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
   text-decoration: none;
-  margin: 15% auto;;
+  margin: 15% auto;
+  font-weight: bolder;
   
 }
 
@@ -24,6 +26,7 @@
   color: pink;
   margin-top: 145%;
   margin-bottom: 10%;
+  font-weight: bolder;
 }
 
 a.landing-link {
@@ -34,7 +37,7 @@ a.landing-link {
   border-radius: 30%;
   padding: 1% 4% 1% 4%;
   border: white 1px solid;
-
+  font-weight: bolder;
   
 
 }
@@ -59,14 +62,24 @@ a.landing-link {
 
   .home h1 {
     color: pink;
-    font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+    font: 400 50px/0.8 'Great Vibes', Helvetica, sans-serif;
     margin: 0 auto;
     padding-top: 10%;
+    font-weight: bolder;
+  }
+
+  .moontxt {
+    margin-top: 15%;
+    color: pink;
+    font: 400 20px/0.8 'Great Vibes', Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    
   }
 
   .home-img {
     height: 278px;
-    margin-top: 20%;
+    margin-top: 17%;
   }
 
   .img-home {
@@ -85,16 +98,16 @@ a.landing-link {
   padding-left: 15% !important;
 }
 
-.carousel {
-  margin-top: 15% !important;
-  opacity: 0.6 !important;
-  margin-bottom: 5%;
+.carousel1 {
+  margin-top: 5% !important;
+  opacity: 0.7 !important;
+  
 }
 
 a.carousel-control-next, .carousel-control-prev {
   padding: 1% !important;
-  font: 5px !important;
-  width: 5% !important;
+  margin: 2% !important;
+  width: 8% !important;
   border: none !important;
 }
 
@@ -113,4 +126,28 @@ p {
 .link {
   color: pink;
   border: none;
+}
+
+.lily {
+  background-image: url('./images/blueMoon.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lily h1 {
+  color: pink;
+  font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.bnButtons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: larger;
+  margin-top: 10%;
 }
