@@ -10,7 +10,7 @@ const Home = () => {
         <>
         <div className='home'>
             <h1>Anna Lilia Garcia</h1>
-            <h5 className='moontxt'>Your are the light to my darkness,<br/><br/> you will always shine brighter than the moon.</h5>
+            <h5 className='moontxt'>You are the light to my darkness,<br/><br/> you will always shine brighter than the moon.</h5>
             <div className='home-img'>
                 <img className='img-home' src={lily3} alt='lily1'/>
             </div>
