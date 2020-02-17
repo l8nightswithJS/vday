@@ -1,14 +1,19 @@
 import React from 'react';
+import sunshine from '../songs/sunshine.mp3';
 import {
     Link
   } from "react-router-dom";
 
 const LandingPage = () => {
-    
+    const HandleAudio = () => {
+        var song = new Audio(sunshine);
+        song.play();
+      }
     
     return (
         <>
             <div className='container'>
+                <button onClick={HandleAudio}>Play</button>
                 <div className='header'>
                     <h1>Welcome,</h1>                     
                 </div>

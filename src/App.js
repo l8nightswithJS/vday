@@ -5,7 +5,6 @@ import LandingPage from './component/landingPage.js';
 import Home from './component/home.js';
 import Lily from './component/Lily.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import sunshine from './songs/sunshine.mp3';
 import {
   BrowserRouter as Router,
   Route,
@@ -13,11 +12,6 @@ import {
 
 
 function App() {
-  useEffect(() => {
-    var song = new Audio(sunshine);
-    song.play();
-  })
-
 
   return (
     <Router>
