@@ -17,6 +17,7 @@ const Lily = () => {
             <ControlledCarousel className='home-carousel'/>
             <br/>
             <ControlledCarouselThree className='home-carousel'/>
+            <Link className='lilys-link' to='/home'>Back</Link>
             
         </div>
 

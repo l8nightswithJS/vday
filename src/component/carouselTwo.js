@@ -21,14 +21,8 @@ export default function ControlledCarousel() {
     };
   
     return (
-      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 img-2"
-            src={lily1}
-            alt="First slide"
-          />
-        </Carousel.Item>
+      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} className='lilyscarousel' interval={false}>
+        
         <Carousel.Item>
           <img
             className="d-block w-100 img-2"

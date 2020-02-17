@@ -8,6 +8,7 @@ const LandingPage = () => {
     const HandleAudio = () => {
         var song = new Audio(sunshine);
         song.play();
+        console.log(song);
       }
     
     return (

@@ -17,7 +17,7 @@ export default function ControlledCarouselThree() {
     };
   
     return (
-      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
+      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} className='lilyscarouseltwo' interval={false}>
         <Carousel.Item>
           <img
             className="d-block w-100 img-2"
