@@ -203,6 +203,6 @@ p {
   text-decoration: none;
   border-radius: 30%;
   padding: 1% 4% 1% 4%;
-  border: purple 1% solid;
+  border: purple 1px solid;
   font-weight: bolder;
 }
