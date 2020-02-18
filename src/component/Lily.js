@@ -12,8 +12,7 @@ const Lily = () => {
         <>
         <div className='lily' >
             <h1>Anna Lilia Garcia</h1>
-           
-            
+           <h4>I could write a novel and still not have enough words to describe how amazing you are.</h4>
             <ControlledCarousel className='home-carousel'/>
             <br/>
             <ControlledCarouselThree className='home-carousel'/>
