@@ -10,6 +10,7 @@
 
  .container button {
    margin-top: 5%;
+   color: white !important;
  } 
 .header {
   font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
@@ -28,8 +29,8 @@
   font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
   text-align: center;
   color: pink;
-  margin-top: 125%;
-  margin-bottom: 10%;
+  margin-top: 140%;
+  margin-bottom: 15%;
   font-weight: bolder;
 }
 
@@ -92,14 +93,14 @@ a.landing-link {
   }
 
   .home-img {
-    height: 285px;
-    margin-top: 16%;
+    height: 280px;
+    margin-top: 17%;
     margin-right: 2%;
   }
 
   .img-home {
-    width: 71%;
-    height: 93%;
+    width: 78%;
+    height: 100%;
     clip-path: circle(50% at 50% 50%);
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
@@ -152,18 +153,28 @@ p {
 }
 
 .lily h1 {
-  color: pink;
+  color: rgb(243, 171, 237);
   font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
   margin: 0 auto;
   padding-top: 10%;
 }
 
 .lily h4 {
-  color: pink;
-  font: 400 20px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: rgb(243, 171, 237);
+  font: 400 20px/1.1 'Great Vibes', Helvetica, sans-serif;
   margin: 2%;
-  padding-top: 10%;
+  padding-top: 5%;
   font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+.lily h2 {
+  color: purple;
+  font: 400 35px/1.1 'Great Vibes', Helvetica, sans-serif;
+  margin: 2%;
+  padding-top: 15%;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
 }
 
 .bnButtons {
@@ -176,12 +187,14 @@ p {
 }
 
 .lilyscarousel {
-  margin-top: 35%;
+  margin-top: 20%;
+  opacity: .9;
 }
 
 .lilyscarouseltwo {
   margin-top: 10%;
   margin-bottom: 15%;
+  opacity: .6;
 }
 
 .lilys-link {

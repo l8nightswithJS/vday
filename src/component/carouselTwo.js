@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import f1 from '../images/f1.jpg';
 import f2 from '../images/f2.jpg';
 import f3 from '../images/f3.jpg';
-import lily1 from '../images/lily1.jpg';
 import lily2 from '../images/lily2.jpg'
 import lily4 from '../images/lily4.jpg'
 import lily5 from '../images/lily5.jpg'

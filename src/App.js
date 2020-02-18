@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './reset.css';
 import './App.css';
 import LandingPage from './component/landingPage.js';

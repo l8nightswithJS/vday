@@ -1,20 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import sunshine from '../songs/sunshinetwo.mp3';
 import {
     Link
   } from "react-router-dom";
 
 const LandingPage = () => {
-    const HandleAudio = () => {
-        var song = new Audio(sunshine);
+  const [isPlaying, setIsPlaying] = useState(false)
+  console.log(isPlaying);
+  var song = new Audio(sunshine);
+  console.log(song.ended);
+  
+    const HandlePlay = () => {
+      if(isPlaying === false) {
         song.play();
+        song.controls = true;
         console.log(song);
-      }
+        setIsPlaying(true);
+      } else console.log('err');  
+    }
+
+    
     
     return (
         <>
             <div className='container'>
-                <button onClick={HandleAudio}>Play</button>
+                <button onClick={HandlePlay}>Play</button>
+                
                 <div className='header'>
                     <h1>Welcome,</h1>                     
                 </div>
