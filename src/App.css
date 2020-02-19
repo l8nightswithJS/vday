@@ -68,7 +68,7 @@ a.landing-link {
 
 
   .home {
-    background-image: url('http://static.wixstatic.com/media/4d73f4_98ae495e2190e5e72c54253c5a8dc9e9.jpg/v1/fill/w_740,h_800,al_c,q_90/4d73f4_98ae495e2190e5e72c54253c5a8dc9e9.webp');
+    background-image: url('./images/blue.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
