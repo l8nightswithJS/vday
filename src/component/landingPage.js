@@ -24,7 +24,7 @@ const LandingPage = () => {
     return (
         <>
             <div className='container'>
-                <button onClick={HandlePlay}>Play</button>
+                <div className='buttonL' onClick={HandlePlay}>Play</div>
                 
                 <div className='header'>
                     <h1>Welcome,</h1>                     
