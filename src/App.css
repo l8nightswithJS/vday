@@ -2,7 +2,7 @@
 
 .App {
   width: 100vw;
-  margin: auto;
+  margin: 0 auto;
   height: 100vh;
   text-align: center;
   font-weight: bolder;
