@@ -1,52 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
 .App {
-  width: 100%;
+  width: 100vw;
   margin: auto;
-  height: 1000px;
+  height: 100vh;
   text-align: center;
   font-weight: bolder;
   }
 
  .buttonL {
    margin: 5%;
-   color: white !important;
+   color: black !important;
    text-align: start;
    font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
- } 
-.header {
-  font: 400 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+ }
+ 
+ .buttonL span {
+   color: #58ffc7;
+ }
+
+.header h1{
+  font: 1000 40px/1.0 'Great Vibes', Helvetica, sans-serif;
   text-align: center;
-  color: pink;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  color: black;
+  text-shadow: 2% 2% 2% rgba(0,0,0,0.1);
   text-decoration: none;
   margin: 5% auto;
   font-weight: bolder;
-  
 }
 
-
+.header h1 span {
+  color: #58ffc7;
+}
 
 .landing-h2 {
-  font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+  font: 1000 45px/0.8 'Great Vibes', Helvetica, sans-serif;
   text-align: center;
-  color: pink;
-  margin-top: 140%;
-  margin-bottom: 15%;
+  color: black;
+  margin-top: 8%;
+  margin-bottom: 150%;
   font-weight: bolder;
+}
+
+.landing-h2 span {
+  color: #58ffc7;
+}
+
+.landing-dob {
+  font: 1000 35px/.8 'Great Vibes', Helvetica, sans-serif;
+  color: black;
+  margin-bottom: 10%;
+}
+
+.landing-dob span {
+  color: #58ffc7;
 }
 
 a.landing-link {
   /* background-color: grey; */
-  font: 400 20px/.8 'Great Vibes', Helvetica, sans-serif;
-  color: white;
+  font: 1000 25px/.8 'Great Vibes', Helvetica, sans-serif;
+  letter-spacing: .3rem;
+  color: black;
   text-decoration: none;
-  border-radius: 30%;
-  padding: 1% 4% 1% 4%;
-  border: white 1px solid;
+  border-radius: 45%;
+  padding: 1% 7% 1% 7%;
+  border: black 4px dashed;
+  background-color: #58ffc7;
   font-weight: bolder;
-  
+  text-align: center;
+}
 
+.landing-link span {
+  color: black;
 }
 
 .container {
@@ -70,44 +95,90 @@ a.landing-link {
 
 
   .home {
-    background-image: url('./images/HomeMoon.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('./images/aries7.jpg') no-repeat top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
+    width: 100%;
   }
 
   .home h1 {
-    color: pink;
+    color: darkorchid;
     font: 400 50px/0.8 'Great Vibes', Helvetica, sans-serif;
     margin: 0 auto;
     padding-top: 10%;
     font-weight: bolder;
   }
 
+  .home h1 span {
+    color: #58ffc7;
+  }
+
   .moontxt {
     margin-top: 15%;
-    color: pink;
-    font: 400 20px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #58ffc7;
+    font: 1000 25px/0.8 'Great Vibes', Helvetica, sans-serif;
     font-weight: bolder;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1%;
+  }
+
+  .moontxt span {
+    color: silver;
+  }
+
+  .home-happy {
+    color: darkmagenta;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    letter-spacing: 0.2rem;
+    font: 1000 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+  }
+
+  .home-txt {
+    color: green;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .h2-center {
+    margin-bottom: 5%;
+    color: green;
+    font: 1000 38px/0.8 'Great Vibes', Helvetica, sans-serif;
+    letter-spacing: 0.3rem;
+  }
+
+  .span {
+    color: blue;
+  }
+
+  .h3-left {
+    text-align: center;
+    font: 1000 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+    margin: 4% auto;
+    width: 50%;
+    letter-spacing: 0.3rem;
+  }
+
+  .h3-right {
+    text-align: center;
+    margin: 4% auto;
+    font: 1000 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+    width: 50%;
+    letter-spacing: 0.3rem;
+  }
+
+  .h2-center-btm {
+    color: darkorchid;
+    font: 1000 35px/0.8 'Great Vibes', Helvetica, sans-serif;
+    margin-top: 25%;
+    margin-bottom: 20%;
+    letter-spacing: 0.2rem;
     
-  }
-
-  .home-img {
-    height: 280px;
-    margin-top: 17%;
-    margin-right: 2%;
-  }
-
-  .img-home {
-    width: 78%;
-    height: 100%;
-    clip-path: circle(50% at 50% 50%);
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-
-
   }
 
 .carousel-item {
@@ -118,7 +189,7 @@ a.landing-link {
 
 .carousel1 {
   margin-top: 5% !important;
-  opacity: 0.7 !important;
+  opacity: 0.9 !important;
   
 }
 
@@ -142,8 +213,11 @@ p {
 }
 
 .link {
-  color: pink;
+  color: darkviolet;
   border: none;
+  letter-spacing: 0.1rem;
+  border: #58ffc7 1px dashed;
+  padding: 2%;
 }
 
 .lily {

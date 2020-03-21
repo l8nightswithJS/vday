@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import sunshine from '../songs/sunshinetwo.mp3';
+import sunshine from '../songs/bday.mp3';
 import {
     Link
   } from "react-router-dom";
@@ -24,14 +24,15 @@ const LandingPage = () => {
     return (
         <>
             <div className='container'>
-                <div className='buttonL' onClick={HandlePlay}>Play</div>
+                <div className='buttonL' onClick={HandlePlay}><span>P</span>lay</div>
                 
                 <div className='header'>
-                    <h1>Welcome,</h1>                     
+                    <h1><span>H</span>appy <span>B</span>irthday,</h1>                     
                 </div>
-                <h2 className='landing-h2'>Anna Lilia Garcia</h2>
-            </div><br/><br/> 
-            <Link className='landing-link' to='/home'>Enter</Link>
+                <h2 className='landing-h2'><span>A</span>nna <span>L</span>ilia <span>G</span>arcia</h2>
+                <h2 className='landing-dob'>0<span>3</span>/2<span>1</span>/1<span>9</span>8<span>9</span></h2>
+            </div>
+            <Link className='landing-link' to='/home'><span>E</span>n<span>t</span>e<span>r</span></Link>
             
       </>
     )
