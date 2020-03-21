@@ -8,6 +8,28 @@
   font-weight: bolder;
   }
 
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/aries2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 70vh;
+  letter-spacing: .1rem;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  background: url('./images/aries7.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
  .buttonL {
    margin: 5%;
    color: black !important;
@@ -22,7 +44,7 @@
 .header h1{
   font: 1000 40px/1.0 'Great Vibes', Helvetica, sans-serif;
   text-align: center;
-  color: black;
+  color: darkblue;
   text-shadow: 2% 2% 2% rgba(0,0,0,0.1);
   text-decoration: none;
   margin: 5% auto;
@@ -36,9 +58,9 @@
 .landing-h2 {
   font: 1000 45px/0.8 'Great Vibes', Helvetica, sans-serif;
   text-align: center;
-  color: black;
+  color: darkviolet;
   margin-top: 8%;
-  margin-bottom: 150%;
+  margin-bottom: 155%;
   font-weight: bolder;
 }
 
@@ -48,7 +70,7 @@
 
 .landing-dob {
   font: 1000 35px/.8 'Great Vibes', Helvetica, sans-serif;
-  color: black;
+  color: darkmagenta;
   margin-bottom: 10%;
 }
 
@@ -65,7 +87,7 @@ a.landing-link {
   border-radius: 45%;
   padding: 1% 7% 1% 7%;
   border: black 4px dashed;
-  background-color: #58ffc7;
+  background-color: darkorchid;
   font-weight: bolder;
   text-align: center;
 }
@@ -91,95 +113,82 @@ a.landing-link {
   
 }
 
+.home h1 {
+  color: darkorchid;
+  font: 400 50px/0.8 'Great Vibes', Helvetica, sans-serif;
+  margin: 0 auto;
+  padding-top: 10%;
+  font-weight: bolder;
+}
 
+.home h1 span {
+  color: #58ffc7;
+}
 
+.moontxt {
+  margin-top: 15%;
+  color: #58ffc7;
+  font: 1000 25px/0.8 'Great Vibes', Helvetica, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1%;
+}
 
-  .home {
-    background: url('./images/aries7.jpg') no-repeat top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-  }
+.moontxt span {
+  color: silver;
+}
 
-  .home h1 {
-    color: darkorchid;
-    font: 400 50px/0.8 'Great Vibes', Helvetica, sans-serif;
-    margin: 0 auto;
-    padding-top: 10%;
-    font-weight: bolder;
-  }
+.home-happy {
+  color: darkmagenta;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  letter-spacing: 0.2rem;
+  font: 1000 40px/0.8 'Great Vibes', Helvetica, sans-serif;
+}
 
-  .home h1 span {
-    color: #58ffc7;
-  }
+.home-txt {
+  color: green;
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
 
-  .moontxt {
-    margin-top: 15%;
-    color: #58ffc7;
-    font: 1000 25px/0.8 'Great Vibes', Helvetica, sans-serif;
-    font-weight: bolder;
-    letter-spacing: 0.3rem;
-    margin-bottom: 1%;
-  }
+.h2-center {
+  margin-bottom: 5%;
+  color: green;
+  font: 1000 38px/0.8 'Great Vibes', Helvetica, sans-serif;
+  letter-spacing: 0.3rem;
+}
 
-  .moontxt span {
-    color: silver;
-  }
+.span {
+  color: blue;
+}
 
-  .home-happy {
-    color: darkmagenta;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    letter-spacing: 0.2rem;
-    font: 1000 40px/0.8 'Great Vibes', Helvetica, sans-serif;
-  }
+.h3-left {
+  text-align: center;
+  font: 1000 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+  margin: 4% auto;
+  width: 50%;
+  letter-spacing: 0.3rem;
+}
 
-  .home-txt {
-    color: green;
-    width: 100vw;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-  }
+.h3-right {
+  text-align: center;
+  margin: 4% auto;
+  font: 1000 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+  width: 50%;
+  letter-spacing: 0.3rem;
+}
 
-  .h2-center {
-    margin-bottom: 5%;
-    color: green;
-    font: 1000 38px/0.8 'Great Vibes', Helvetica, sans-serif;
-    letter-spacing: 0.3rem;
-  }
-
-  .span {
-    color: blue;
-  }
-
-  .h3-left {
-    text-align: center;
-    font: 1000 30px/0.8 'Great Vibes', Helvetica, sans-serif;
-    margin: 4% auto;
-    width: 50%;
-    letter-spacing: 0.3rem;
-  }
-
-  .h3-right {
-    text-align: center;
-    margin: 4% auto;
-    font: 1000 30px/0.8 'Great Vibes', Helvetica, sans-serif;
-    width: 50%;
-    letter-spacing: 0.3rem;
-  }
-
-  .h2-center-btm {
-    color: darkorchid;
-    font: 1000 35px/0.8 'Great Vibes', Helvetica, sans-serif;
-    margin-top: 25%;
-    margin-bottom: 20%;
-    letter-spacing: 0.2rem;
-    
-  }
+.h2-center-btm {
+  color: darkorchid;
+  font: 1000 35px/0.8 'Great Vibes', Helvetica, sans-serif;
+  margin-top: 25%;
+  margin-bottom: 20%;
+  letter-spacing: 0.2rem;
+  
+}
 
 .carousel-item {
   width: 85% !important;

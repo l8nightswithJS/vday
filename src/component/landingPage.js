@@ -23,7 +23,7 @@ const LandingPage = () => {
     
     return (
         <>
-            <div className='container'>
+            <div className='container landing-page'>
                 <div className='buttonL' onClick={HandlePlay}><span>P</span>lay</div>
                 
                 <div className='header'>
@@ -31,9 +31,8 @@ const LandingPage = () => {
                 </div>
                 <h2 className='landing-h2'><span>A</span>nna <span>L</span>ilia <span>G</span>arcia</h2>
                 <h2 className='landing-dob'>0<span>3</span>/2<span>1</span>/1<span>9</span>8<span>9</span></h2>
+                <Link className='landing-link' to='/home'><span>E</span>n<span>t</span>e<span>r</span></Link>
             </div>
-            <Link className='landing-link' to='/home'><span>E</span>n<span>t</span>e<span>r</span></Link>
-            
       </>
     )
 }
